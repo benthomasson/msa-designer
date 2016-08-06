@@ -18,17 +18,17 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='msa-designer',
+    name='msa_designer',
     version='0.1.0',
-    description='Visual Ddesigner of microservice architectures.',
+    description='Visual designer of microservice architectures.',
     long_description=readme + '\n\n' + history,
     author='Ben Thomasson',
     author_email='ben.thomasson@gmail.com',
     url='https://github.com/benthomasson/msa-designer',
     packages=[
-        'msa-designer',
+        'msa_designer',
     ],
-    package_dir={'msa-designer': 'msa-designer'},
+    package_dir={'msa_designer': 'msa_designer'},
     include_package_data=True,
     install_requires=[
     ],
