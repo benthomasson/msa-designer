@@ -12,7 +12,7 @@ Micro Service Architecture Designer
         :target: https://crate.io/packages/msa-designer?version=latest
 
 
-Visual Ddesigner of microservice architectures.
+Visual Designer of microservice architectures.
 
 * Free software: BSD license
 * Documentation: http://msa-designer.rtfd.org.
